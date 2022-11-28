@@ -1,6 +1,6 @@
 from workflow.parse_mode import ParseSites
 from workflow.quote_generation import QuoteGeneration
-
+from UI.main_ui import *
 
 """
 ██████╗░██╗░░░██╗░░███╗░░██╗░░░░░██╗░░██╗██████╗░░█████╗░████████╗░█████╗░░█████╗░░█████╗░
@@ -12,15 +12,17 @@ from workflow.quote_generation import QuoteGeneration
 
 Генератор цитат из фильмов с игрфическим интерфейсом
 
-v.0.0.1(no GUI)
+v.0.0.2(add GUI)
 
 Сайт с цитатами: https://citaty.info/
 
 """
-
-
+def main():
+    app = QApplication(sys.argv)
+    window = UserInterface()
+    window.show()
+    sys.exit(app.exec_())
 
 
 if __name__ == "__main__":
-    app = QuoteGeneration()
-    app.generation()
+    main()

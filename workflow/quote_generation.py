@@ -11,6 +11,6 @@ class QuoteGeneration:
         self.parse_data = ParseSites("https://citaty.info/movie/dzhentlmeny-the-gentlemen")
         self.quote_generation = self.parse_data.parse()
         self.summ = len(self.quote_generation)     
-        self.number_random = randint(0, self.summ)
+        self.number_random = randint(1, self.summ - 1)
         
-        print(self.quote_generation[self.number_random])        
+        return self.quote_generation[self.number_random]     
