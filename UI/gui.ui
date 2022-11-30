@@ -35,7 +35,7 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>430</x>
+      <x>290</x>
       <y>230</y>
       <width>271</width>
       <height>51</height>
@@ -48,7 +48,7 @@
    <widget class="QComboBox" name="comboBox_2">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>10</x>
       <y>230</y>
       <width>271</width>
       <height>51</height>
@@ -107,6 +107,19 @@
     </property>
     <property name="textInteractionFlags">
      <set>Qt::NoTextInteraction</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>230</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Скопировать в бефер</string>
     </property>
    </widget>
   </widget>

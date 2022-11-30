@@ -1,5 +1,4 @@
 from workflow.parse_mode import ParseSites
-from workflow.quote_generation import QuoteGeneration
 from UI.main_ui import *
 
 """
